@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class QuizDTO {
-    private Long id;
-    private String title;
-    private String description;
+public class Pagination {
+    private int page;
+    private int size;
 }
